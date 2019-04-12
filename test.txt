@@ -1,2 +1,4 @@
 oiyoi
 iul
+select * from sekill ;
+UI哦
