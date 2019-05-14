@@ -1,0 +1,58 @@
+/*
+ Navicat Oracle Data Transfer
+
+ Source Server         : Oracle
+ Source Server Type    : Oracle
+ Source Server Version : 110200
+ Source Host           : localhost:1521
+ Source Schema         : SCOTT
+
+ Target Server Type    : Oracle
+ Target Server Version : 110200
+ File Encoding         : 65001
+
+ Date: 14/05/2019 17:56:18
+*/
+
+
+-- ----------------------------
+-- Table structure for GROSSPROFIT
+-- ----------------------------
+DROP TABLE "SCOTT"."GROSSPROFIT";
+CREATE TABLE "SCOTT"."GROSSPROFIT" (
+  "BRANCHCODE" VARCHAR2(10 BYTE) NOT NULL ,
+  "MONTH" VARCHAR2(8 BYTE) NOT NULL ,
+  "AMNT" NUMBER(22) ,
+  "BRANCHNAME" VARCHAR2(64 BYTE) ,
+  "GRADE" VARCHAR2(2 BYTE) ,
+  "PARENTNAME" VARCHAR2(64 BYTE) ,
+  "PARENTCODE" VARCHAR2(10 BYTE) ,
+  "PROFIT" NUMBER(4,2) 
+)
+TABLESPACE "USERS"
+LOGGING
+NOCOMPRESS
+PCTFREE 10
+INITRANS 1
+STORAGE (
+  INITIAL 65536 
+  NEXT 1048576 
+  MINEXTENTS 1
+  MAXEXTENTS 2147483645
+  BUFFER_POOL DEFAULT
+)
+PARALLEL 1
+NOCACHE
+DISABLE ROW MOVEMENT
+;
+
+-- ----------------------------
+-- Primary Key structure for table GROSSPROFIT
+-- ----------------------------
+ALTER TABLE "SCOTT"."GROSSPROFIT" ADD CONSTRAINT "SYS_C0017726" PRIMARY KEY ("BRANCHCODE", "MONTH");
+
+-- ----------------------------
+-- Checks structure for table GROSSPROFIT
+-- ----------------------------
+ALTER TABLE "SCOTT"."GROSSPROFIT" ADD CONSTRAINT "SYS_C0017724" CHECK ("BRANCHCODE" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "SCOTT"."GROSSPROFIT" ADD CONSTRAINT "SYS_C0017725" CHECK ("MONTH" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
