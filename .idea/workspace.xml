@@ -67,6 +67,14 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1443435235">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -166,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,22 +183,11 @@
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,6 +235,7 @@
       <workItem from="1555053076314" duration="144000" />
       <workItem from="1556264104712" duration="50000" />
       <workItem from="1558662789835" duration="12000" />
+      <workItem from="1562830664416" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="add Test">
       <created>1551945199822</created>
@@ -304,7 +304,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7553000" />
+    <option name="totallyTimeSpent" value="8154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,9 +316,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +331,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.25409836" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.55973816" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289689" />
@@ -372,13 +372,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="132131" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2677ac12-bc66-4ded-aded-bd9d1cdf5edf/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2677ac12-bc66-4ded-aded-bd9d1cdf5edf/console.sql" />
     <entry file="file://$PROJECT_DIR$/SaletargetServiceImpl.class" />
     <entry file="file://$PROJECT_DIR$/MapKeyComparator.class" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
