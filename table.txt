@@ -1,5 +1,0 @@
-WDCSIGNATURE
-ESIGNATURELOGIC
-LCCONTEFORM
-UPLOADNOTICE
-https://prod-wealth-wdc-wag.cn.hsbc:30006/api/documents
