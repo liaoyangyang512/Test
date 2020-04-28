@@ -1,0 +1,2 @@
+saml.properties  Ìí¼ÓË«Â¼  key
+ldpath Ìí¼Ó Ë«Â¼  url  (RecordStart / RecordEnd)   PROD: http://vcrqc.cn.hsbc:8080/
